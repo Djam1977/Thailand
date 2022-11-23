@@ -26,17 +26,29 @@ body {
     transform: translate(-50%);
     font-size: 30px;
 }
+img{
+    
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
 
+    
+}
 nav{
     background-color: white;
    color: black;
-   background-image: url(tag.jpg);
+   display: flex;
+   justify-content: space-between;
+   
+  
 }
 
 nav ul{
     display: flex;
     justify-content: space-evenly;
     font-size: 25px;
+    
     
 }
 
