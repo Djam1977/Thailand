@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+   list-style-type: none;
+
+}
+:root {
+    --primary-color: white;
+    --secondary-color: black;
+}
+
+body {
+    background-image: url(plage.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    height: 100vh;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+   color: var(--primary-color);
+  
+   
+   
+}
+.titre{
+    font-family: 'Lemonada', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 30px;
+}
+nav{
+    background-color: white;
+   color: black;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+
