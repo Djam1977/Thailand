@@ -1,7 +1,7 @@
 * {
     margin: 0;
    list-style-type: none;
-
+ 
 }
 :root {
     --primary-color: white;
@@ -25,12 +25,14 @@ body {
     left: 50%;
     transform: translate(-50%);
     font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.105);
+    width: 100%;
+    text-align: center;
 }
 img{
     
     width: 100px;
     display: flex;
-    justify-content: center;
     margin: 5px;
 
     
@@ -39,7 +41,10 @@ nav{
     background-color: white;
    color: black;
    display: flex;
-   justify-content: space-between;
+  
+
+ 
+  
    
   
 }
@@ -48,12 +53,15 @@ nav ul{
     display: flex;
     justify-content: space-evenly;
     font-size: 25px;
+   
     
     
 }
 
 nav ul li {
     padding: 10px;
+   
     
 }
+
 
