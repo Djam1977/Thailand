@@ -1,6 +1,8 @@
 * {
     margin: 0;
    list-style-type: none;
+   text-decoration: none;
+   --secondary-color: black;
  
 }
 :root {
@@ -24,11 +26,10 @@ body {
 }
 .bodyculture {
     
-   
-  
+}
   
     
-} 
+   git status
 .religions { 
     background-color: red;
     color: var(--secondary-color);
@@ -38,27 +39,78 @@ body {
     }
     .culte { 
         background-color: green;
-        color: var(--secondary-color);
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+            color: var(--secondary-color);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            flex-direction: column;
+            display: flex
+           
         }
         .roi { 
             background-color: yellow;
             color: var(--secondary-color);
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        
+            flex-direction: column;
+            display: flex
+           
             }
 
-}
+
 .bodydecouvrir {
     color: var(--secondary-color);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.bodyinfos-utiles {
+.urbanisme { 
+    background-color: red;
     color: var(--secondary-color);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   flex-direction: column;
+    display: flex
+    height: 100px;
+    }
+    .plaine { 
+        background-color: green;
+        color: var(--secondary-color);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       flex-direction: column;
+        display: flex
+        }
+        .plage { 
+            background-color: yellow;
+            color: var(--secondary-color);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           flex-direction: column;
+            display: flex
+            }
+
+.bodyinfos-utiles {
+    
     
 }
+.affaires {  
+    background-color: yellow;
+    color: var(--secondary-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   flex-direction: column;
+    display: flex
+    
+}
+.passeport { 
+    background-color: red;
+    color: var(--secondary-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   flex-direction: column;
+    display: flex
+    
+}
+.resto {  
+    background-color: green;
+    color: var(--secondary-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   flex-direction: column;
+    display: flex
+    
+}
+
     
 
 
@@ -82,7 +134,7 @@ img{
     
 }
 header nav{
-    background-color: white;
+    background-color: var(--primary-color) ;
    color: var(--secondary-color);
    display: flex;
 }
@@ -104,11 +156,6 @@ header nav ul{
 }
    
 ul li a:hover{
-    color: var(--primary-color);
+    color: gray;
 }
 
-.img-bouhda{
-    background-image: url(boudha.jpg);
-   
-  
-}
