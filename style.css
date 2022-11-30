@@ -1,117 +1,106 @@
 * {
     margin: 0;
-   list-style-type: none;
-   text-decoration: none;
-   --secondary-color: black;
- 
+    list-style-type: none;
+    text-decoration: none;
+    --secondary-color: black;
+
+
 }
+
 :root {
     --primary-color: white;
     --secondary-color: black;
 }
 
 body {
-    
-    
     color: var(--primary-color);
-    
 }
+
 .bodyindex {
     background-image: url(plages.jpg);
     background-size: cover;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
-    
+
+
 }
-.bodyculture {
-    
-}
-  
-    
-   git status
-.religions { 
+
+
+
+
+.religions {
     background-color: red;
     color: var(--secondary-color);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   flex-direction: column;
-    display: flex
-    }
-    .culte { 
-        background-color: green;
-            color: var(--secondary-color);
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            flex-direction: column;
-            display: flex
-           
-        }
-        .roi { 
-            background-color: yellow;
-            color: var(--secondary-color);
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            flex-direction: column;
-            display: flex
-           
-            }
+    display: flex;
+}
+
+.culte {
+    background-color: green;
+    color: var(--secondary-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+}
+
+.roi {
+    background-color: yellow;
+    color: var(--secondary-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+}
 
 
 .bodydecouvrir {
     color: var(--secondary-color);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.urbanisme { 
-    background-color: red;
-    color: var(--secondary-color);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   flex-direction: column;
-    display: flex
-    height: 100px;
-    }
-    .plaine { 
-        background-color: green;
-        color: var(--secondary-color);
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-       flex-direction: column;
-        display: flex
-        }
-        .plage { 
-            background-color: yellow;
-            color: var(--secondary-color);
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-           flex-direction: column;
-            display: flex
-            }
 
-.bodyinfos-utiles {
-    
-    
-}
-.affaires {  
-    background-color: yellow;
-    color: var(--secondary-color);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   flex-direction: column;
-    display: flex
-    
-}
-.passeport { 
+.urbanisme {
     background-color: red;
     color: var(--secondary-color);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   flex-direction: column;
-    display: flex
-    
+    display: flex;
 }
-.resto {  
+
+.plaine {
     background-color: green;
     color: var(--secondary-color);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   flex-direction: column;
-    display: flex
-    
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-    
+.plage {
+    background-color: yellow;
+    color: var(--secondary-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+}
+
+.affaires {
+    background-color: yellow;
+    color: var(--secondary-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.passeport {
+    background-color: red;
+    color: var(--secondary-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+}
+
+.resto {
+    background-color: green;
+    color: var(--secondary-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: row-reverse;    
+}
+
+
 
 
 .titre {
@@ -125,37 +114,62 @@ body {
     width: 100%;
     text-align: center;
 }
-img{
-    
+
+img {
+
     width: 100px;
     display: flex;
     margin: 5px;
 
-    
-}
-header nav{
-    background-color: var(--primary-color) ;
-   color: var(--secondary-color);
-   display: flex;
-}
-.barre
-{
-align-items: center;
+
 }
 
-header nav ul{
+header nav {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+}
+
+.barre {
+    align-items: center;
+}
+
+header nav ul {
     display: flex;
     justify-content: space-evenly;
-    font-size: 25px;
+    font-size: 20px;
+
 }
 
-    ul li a{
+ul li a {
     padding: 10px;
     color: var(--secondary-color);
-    margin-left : 5rem;
+    margin-left: 5rem;
+    box-shadow: 0 0 5px var(--secondary-color);
 }
-   
-ul li a:hover{
+
+ul li a:hover {
     color: gray;
+}
+
+.img-footer {
+
+    width: 50%;
+    margin: auto;
+}
+
+.img-footer img {
+    width: 100%;
+
+}
+
+.img-header {
+
+    width: 50%;
+    margin: auto;
+}
+
+.img-header img {
+    width: 100%;
 }
 
