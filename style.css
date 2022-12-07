@@ -229,8 +229,10 @@ img {
 
 }
 
-  .nav-list-mobile {
+  .nav-list-mobile,.urbanisme,.plaine,.plage,.affaires,.passeport,.resto {
     display: block;
+      
+    
   }
 }
 .navbarre-mobile i {
