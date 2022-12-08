@@ -171,20 +171,31 @@ img {
   width: 100%;
 }
 
-.a {
+.ville2 {
+ 
   width: 525px;
   height: 350px;
+  cursor: pointer;
+  object-fit: cover;
 }
 
-.b {
+  
+
+
+.buffle5 {
   width: 537px;
   height: 350px;
+  cursor: pointer;
+  object-fit: cover;
 }
 
-.c {
+.beach2{
   width: 537px;
   height: 350px;
+  cursor: pointer;
+  object-fit: cover;
 }
+ 
 
 .d {
   width: 340px;
@@ -210,32 +221,30 @@ img {
   color: var(--secondary-color);
   font-weight: 800;
   padding: 10px;
-  
 }
- .navbarre-mobile { 
-  display: none; 
-
+.navbarre-mobile {
+  display: none;
 }
-a{
+a {
   cursor: pointer;
 }
-
 
 @media screen and (max-width: 990px) {
   .barre {
     display: none;
-
   }
-  .navbarre-mobile { 
-  display: initial;
+  .navbarre-mobile {
+    display: initial;
+  }
 
-
-}
-
-  .nav-list-mobile,.urbanisme,.plaine,.plage,.affaires,.passeport,.resto {
+  .nav-list-mobile,
+  .urbanisme,
+  .plaine,
+  .plage,
+  .affaires,
+  .passeport,
+  .resto {
     display: block;
-      
-    
   }
 }
 .navbarre-mobile i {
@@ -244,8 +253,6 @@ a{
   position: fixed;
   top: 20px;
   right: 50px;
-  
- 
 }
 
 .nav-list-mobile {
@@ -261,19 +268,17 @@ a{
   transition: top 0.5s;
   background-color: var(--secondary-color);
   opacity: 0.5;
-
 }
 .nav-list-mobile a {
   width: 100%;
   color: var(--primary-color);
   font-weight: 800;
 }
-.list-visible {
 
-  top: 0vh;
+.list-visible {
+  top: 0;
 }
 
 .icon-visble {
-
   color: yellow;
 }
