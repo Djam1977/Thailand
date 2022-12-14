@@ -3,6 +3,7 @@
   list-style-type: none;
   text-decoration: none;
   --secondary-color: black;
+  /* box-sizing: border-box; */
 }
 
 :root {
@@ -282,3 +283,10 @@ a {
 .icon-visble {
   color: yellow;
 }
+@media screen and (max-width: 990px) {
+  .barre {
+    display: none;
+  }
+  .navbarre-mobile {
+    display: initial;
+  }
