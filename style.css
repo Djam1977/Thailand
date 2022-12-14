@@ -296,7 +296,7 @@ a {
   .passeport > p {
     font-size: 0.78rem;
   }
-}
+
 .resto > p {
   font-size: 0.78rem;
 }
@@ -311,4 +311,5 @@ a {
 
 .plage > p {
   font-size: 0.78rem;
+}
 }
