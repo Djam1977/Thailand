@@ -290,3 +290,25 @@ a {
   .navbarre-mobile {
     display: initial;
   }
+  .affaires > p {
+    font-size: 0.78rem;
+  }
+  .passeport > p {
+    font-size: 0.78rem;
+  }
+}
+.resto > p {
+  font-size: 0.78rem;
+}
+
+.urbanisme > p {
+  font-size: 0.78rem;
+}
+
+.plaine > p {
+  font-size: 0.78rem;
+}
+
+.plage > p {
+  font-size: 0.78rem;
+}
