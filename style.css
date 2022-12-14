@@ -290,3 +290,54 @@ a {
   .navbarre-mobile {
     display: initial;
   }
+  .affaires > p {
+    font-size: 1rem;
+  }
+  .passeport > p {
+    font-size: 1rem;
+  }
+
+.resto > p {
+  font-size: 1rem;
+}
+
+.urbanisme > p {
+  font-size: 1rem;
+}
+
+.plaine > p {
+  font-size: 1rem;
+}
+
+.plage > p {
+  font-size: 1rem;
+}
+.ville2 {
+  width: 45vh;
+  height: 30vh;
+}
+
+.buffle5 {
+  width: 45vh;
+  height: 30vh;
+}
+
+.beach2 {
+  width: 45vh;
+  height: 30vh;
+}
+.d {
+  width: 45vh;
+  height: 30vh;
+}
+
+.e {
+  width: 45vh;
+  height: 30vh;
+}
+
+.f {
+  width: 45vh;
+  height: 30vh;
+}
+}
