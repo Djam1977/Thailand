@@ -1,4 +1,4 @@
-console.log("connecté");
+
 //=> Lorsque je clique sur l'icone l'element nav-list-mobile apparait
 // je séléctionne et stocke les éléments nécessaire
 const icon = document.querySelector(".fa-bars");
@@ -14,9 +14,7 @@ icon.addEventListener("click", function () {
 
 // function changeImage(){
 let displayImageVille2 = document.querySelector(".ville2");
-
 let srcOrigin = displayImageVille2.src;
-
 displayImageVille2.addEventListener("click", function changeImageVille2() {
   if (displayImageVille2.src === srcOrigin) {
     displayImageVille2.src = "bangkok3.jpg";
